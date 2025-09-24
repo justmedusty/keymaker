@@ -14,3 +14,6 @@ make
 high will poll /dev/random while low (not really low quality just lowER) will poll /dev/urandom
 
 Keys are output with 0x prefix in hexademical format, meant to go hand in hand with my cypher OTP tool.
+
+# Cypher
+This tool is meant to be used as a pair with my cypher OTP tool located here : https://github.com/justmedusty/cypher
