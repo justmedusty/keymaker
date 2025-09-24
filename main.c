@@ -120,6 +120,7 @@ int main(const int argc, const char* argv[]) {
     for (int i = 0; i < bytes; i++) {
         printf("%02X", entropy_pool[i] & 0xFF);
     }
+    printf("\n");
 
     return 0;
 }
