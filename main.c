@@ -17,9 +17,12 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
 
 */
-#ifndef __linux__
-#error This program is only meant to run on linux
+#ifdef  __WIN32__
+#ifdef __WIN64__
+#error This program is only meant to run on linux ,bsd, darwin
 #endif
+#endif
+
 
 
 #include <stdio.h>
